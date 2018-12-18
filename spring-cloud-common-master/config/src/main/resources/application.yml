@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: spring-cloud-config
+  profiles:
+    active: native
+  cloud:
+    config:
+      server:
+        native:
+          search-locations: classpath:/config
+#       prefix: spring-cloud/config
+server:
+  port: 8888
+
+
+
+#logging:
+#  level:
+#    root: debug
+
+
